@@ -120,8 +120,6 @@ pro kcwi_prep,rawdir,reduceddir,calibdir,datadir, $
 		return
 	endif
 	;
-	; a test change
-	;
 	; instantiate and init a ppar structure for the pipeline parameters
 	A = {kcwi_ppar}
 	ppar = struct_init(A)

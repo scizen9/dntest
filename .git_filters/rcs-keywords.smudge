@@ -34,8 +34,9 @@ $author =~ /\s*(.*)\s*<.*/;
 $name = $1;
 $rev =~ /^Date:\s*(.*)\s*$/m;
 $date = $1;
-$ident = `git describe --tags --always --long --dirty`;
-$ident =~ /(.*)$/m;
+$rev = `git describe --tags --always --long --dirty`;
+$rev =~ /(.*)$/m;
+$ident = $1
 
 while (<STDIN>) {
     s/\$Date[^\$]*\$/\$Date:   $date \$/;

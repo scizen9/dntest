@@ -1,4 +1,4 @@
-; $Id: kcwi_read_image.pro,v 1.6 2015/02/21 00:18:38 neill Exp $
+; $Id: kcwi_read_image.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.
@@ -50,7 +50,7 @@ function kcwi_read_image,imgnum,ppar,tail,hdr, $
 	;
 	; setup
 	pre = 'KCWI_READ_IMAGE'
-	version = repstr('$Revision: 1.6 $ $Date: 2015/02/21 00:18:38 $','$','')
+	version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 	status = 3
 	;
 	; help request

@@ -1,4 +1,4 @@
-; $Id: kcwi_read_atlas.pro,v 1.1 2014/09/18 22:16:40 neill Exp $
+; $Id: kcwi_read_atlas.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2014, California Institute of Technology. All rights
 ;	reserved.
@@ -40,7 +40,7 @@
 pro kcwi_read_atlas, kgeom, ppar, refspec, refwave, refdisp
 
 pre = 'KCWI_READ_ATLAS'
-version = repstr('$Revision: 1.1 $ $Date: 2014/09/18 22:16:40 $','$','')
+version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 q=''
 ;
 ; init

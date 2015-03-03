@@ -1,4 +1,4 @@
-; $Id: kcwi_verify_geom.pro,v 1.2 2013/09/16 20:45:12 neill Exp $
+; $Id: kcwi_verify_geom.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.

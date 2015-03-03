@@ -1,4 +1,4 @@
-; $Id: kcwi_solve_arcs.pro,v 1.79 2015/01/24 01:08:32 neill Exp $
+; $Id: kcwi_solve_arcs.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.
@@ -62,7 +62,7 @@
 pro kcwi_solve_arcs, specs, kgeom, ppar, tweak=tweak, plot_file=plot_file
 
 pre = 'KCWI_SOLVE_ARCS'
-version = repstr('$Revision: 1.79 $ $Date: 2015/01/24 01:08:32 $','$','')
+version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 q=''
 ;
 ; do we want to display stuff? 

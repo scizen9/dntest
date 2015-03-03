@@ -1,4 +1,4 @@
-; $Id: kcwi_quick.pro,v 1.9 2015/02/25 07:04:55 neill Exp $
+; $Id: kcwi_quick.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2014, California Institute of Technology. All rights
 ;	reserved.
@@ -92,7 +92,7 @@ pro kcwi_quick,rawdir,reduceddir,calibdir,datadir, $
 	;
 	; setup
 	pre = 'KCWI_QUICK'
-	version = repstr('$Revision: 1.9 $ $Date: 2015/02/25 07:04:55 $','$','')
+	version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 	startime=systime(1)
 	q = ''	; for queries
 	;

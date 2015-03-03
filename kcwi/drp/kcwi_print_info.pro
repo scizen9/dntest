@@ -1,4 +1,4 @@
-; $Id: kcwi_print_info.pro,v 1.7 2013/11/22 01:30:18 neill Exp $
+; $Id: kcwi_print_info.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.

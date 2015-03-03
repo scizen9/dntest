@@ -3,3 +3,4 @@
 
 *.pro filter=rcs-keywords
 *.pro linguist-language=IDL
+[A-Z]* filter=rcs-keywords

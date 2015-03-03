@@ -1,4 +1,4 @@
-; $Id: kcwi_map_ccd.pro,v 1.3 2014/01/08 01:32:02 neill Exp $
+; $Id: kcwi_map_ccd.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.

@@ -1,4 +1,4 @@
-; $Id: kcwi_xspec.pro,v 1.13 2014/12/10 21:40:02 neill Exp $
+; $Id: kcwi_xspec.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.
@@ -55,7 +55,7 @@ pro kcwi_xspec, spec0, spec1, ppar, offset, value, $
 ;
 ; startup
 pre = 'KCWI_XSPEC'
-version = repstr('$Revision: 1.13 $ $Date: 2014/12/10 21:40:02 $','$','')
+version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 offset = !values.f_nan
 value = !values.f_nan
 status = 0

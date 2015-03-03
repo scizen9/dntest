@@ -1,4 +1,4 @@
-;$Id: kcwi_read_raw.pro,v 1.4 2015/02/21 00:18:38 neill Exp $
+;$Id: kcwi_read_raw.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ;+
 ;
@@ -7,7 +7,7 @@ function kcwi_read_raw,ppar,imgno,header=header,silent=silent
 	;
 	; initialize
 	pre = 'KCWI_READ_RAW'
-	version = repstr('$Revision: 1.4 $ $Date: 2015/02/21 00:18:38 $','$','')
+	version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 	;
 	; check input
 	if kcwi_verify_ppar(ppar,/init) ne 0 then return,-1

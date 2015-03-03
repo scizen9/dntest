@@ -1,4 +1,4 @@
-; $Id: kcwi_make_bias.pro,v 1.26 2014/10/29 17:06:51 neill Exp $
+; $Id: kcwi_make_bias.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.
@@ -43,7 +43,7 @@
 pro kcwi_make_bias,ppar
 	;
 	; version
-	version = repstr('$Revision: 1.26 $ $Date: 2014/10/29 17:06:51 $','$','')
+	version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 	;
 	; initialize
 	pre = 'KCWI_MAKE_BIAS'

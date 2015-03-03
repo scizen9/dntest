@@ -1,4 +1,4 @@
-; $Id: kcwi_match_cfg.pro,v 1.19 2014/10/27 19:47:13 neill Exp $
+; $Id: kcwi_match_cfg.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2014, California Institute of Technology. All rights
 ;	reserved.

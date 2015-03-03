@@ -1,4 +1,4 @@
-; $Id: kcwi_write_geom.pro,v 1.1 2014/09/11 18:26:47 neill Exp $
+; $Id: kcwi_write_geom.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2014, California Institute of Technology. All rights reserved.
 ;+
@@ -40,7 +40,7 @@ pro kcwi_write_geom,ppar,kgeom, test=test
 ;
 ; startup
 pre = 'KCWI_WRITE_GEOM'
-version = repstr('$Revision: 1.1 $ $Date: 2014/09/11 18:26:47 $','$','')
+version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 q = ''
 ;
 ; check inputs

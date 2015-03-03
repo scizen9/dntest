@@ -1,4 +1,4 @@
-; $Id: kcwi_read_links.pro,v 1.6 2015/02/21 00:18:36 neill Exp $
+; $Id: kcwi_read_links.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2014, California Institute of Technology. All rights
 ;	reserved.
@@ -49,7 +49,7 @@ pro kcwi_read_links,ppar,linkf,imgs, $
 ;
 ; setup
 	pre = 'KCWI_READ_LINKS'
-	version = repstr('$Revision: 1.6 $ $Date: 2015/02/21 00:18:36 $','$','')
+	version = repstr('$Revision: v0.1.3-beta-8-ge4c27b8 $ $Date: Fri Feb 27 10:38:33 2015 -0800 $','$','')
 ;
 ; check inputs
 	if kcwi_verify_ppar(ppar,/silent) ne 0 then $

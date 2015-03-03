@@ -1,5 +1,5 @@
 ;+
-; $Id: kcwi_parse_imsec.pro,v 1.1 2013/05/13 21:43:03 neill Exp $
+; $Id: kcwi_parse_imsec.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; KCWI_PARSE_IMSEC - return a 4 element integer vector with the
 ;	standard image section limits parsed

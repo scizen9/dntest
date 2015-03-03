@@ -1,4 +1,4 @@
-; $Id: kcwi_read_cfg.pro,v 1.6 2014/09/12 23:06:30 neill Exp $
+; $Id: kcwi_read_cfg.pro | Fri Feb 27 10:38:33 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.

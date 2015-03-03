@@ -36,7 +36,7 @@ $rev =~ /^Date:\s*(.*)\s*$/m;
 $date = $1;
 $rev = `git describe --tags --always --long`;
 $rev =~ /(.*)$/m;
-$ident = $1
+$ident = $1;
 
 while (<STDIN>) {
     s/\$Date[^\$]*\$/\$Date:   $date \$/;

@@ -1,0 +1,5 @@
+# .gitattributes
+# Map file extensions to git filters
+
+*.pro filter=rcs-keywords
+*.pro linguist-language=IDL

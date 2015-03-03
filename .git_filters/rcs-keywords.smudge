@@ -34,7 +34,7 @@ $author =~ /\s*(.*)\s*<.*/;
 $name = $1;
 $rev =~ /^Date:\s*(.*)\s*$/m;
 $date = $1;
-$rev = `git describe --tags --always --long --dirty`;
+$rev = `git describe --tags --always --long`;
 $rev =~ /(.*)$/m;
 $ident = $1
 

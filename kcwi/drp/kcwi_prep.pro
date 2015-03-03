@@ -1,4 +1,4 @@
-; $Id: kcwi_prep.pro | Tue Mar 3 10:13:31 2015 -0800 | Don Neill  $
+; $Id: kcwi_prep.pro | Tue Mar 3 10:26:46 2015 -0800 | Don Neill  $
 ;
 ; Copyright (c) 2013, California Institute of Technology. All rights
 ;	reserved.
@@ -104,9 +104,12 @@ pro kcwi_prep,rawdir,reduceddir,calibdir,datadir, $
 	saveplots=saveplots, $
 	help=help
 	;
+	; a test change
+	;
 	; setup
 	pre = 'KCWI_PREP'
-	version = repstr('$Revision: 0.1.1-3-g43d7418-dirty $ $Date:   Tue Mar 3 10:13:31 2015 -0800 $','$','')
+	version = repstr('$Revision: 0.1.1-4-g9d12483-dirty
+ $ $Date:   Tue Mar 3 10:26:46 2015 -0800 $','$','')
 	startime=systime(1)
 	q = ''	; for queries
 	;

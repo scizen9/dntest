@@ -32,17 +32,17 @@ $rev =~ /^Author:\s*(.*)\s*$/m;
 $author = $1;
 $author =~ /\s*(.*)\s*<.*/;
 $name = $1;
-$rev =~ /^Date:  \s*(.*)\s*$/m;
+$rev =~ /^Date:\s*(.*)\s*$/m;
 $date = $1;
 $rev = `git describe --tags --always --long`;
 $rev =~ /(.*)$/m;
 $ident = $1;
 
 while (<STDIN>) {
-    s/\$Date[^\$]*\$/\$Date:   $date \$/;
+    s/\$Date[^\$]*\$/\$Date: $date \$/;
     s/\$Author[^\$]*\$/\$Author: $author \$/;
     s/\$Id[^\$]*\$/\$Id: $filename | $date | $name \$/;
-    s/\$File[^\$]*\$/\$File:   $filename \$/;
+    s/\$File[^\$]*\$/\$File: $filename \$/;
     s/\$Source[^\$]*\$/\$Source: $path \$/;
 	s/\$Revision[^\$]*\$/\$Revision: $ident \$/;
 } continue {

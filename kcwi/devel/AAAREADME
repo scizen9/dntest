@@ -13,3 +13,4 @@ kcwi_sort_atlas.pro		obsolete:	sort atlas lines by wavelength
 kcwi_test_std.pro		test:		for testing std star calibration
 kfc.pro				test:		CWI MEDREZ grating non-standard mode of kcwi_fit_center.pro
 testwcs.pro			test:		for testing WCS
+cwi_barsep.pro.         test:              for analyzing bar separation 
